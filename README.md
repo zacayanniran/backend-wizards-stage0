@@ -1,17 +1,21 @@
-# üê± Backend Wizards Stage 0: Dynamic Profile API
+# Ì∞± Backend Wizards Stage 0: Dynamic Profile API
 
-## üöÄ LIVE DEMO
-**[GET /me](https://your-app.railway.app/me)**
+This project implements a RESTful **GET /me** endpoint that returns my profile information (name, email, stack) along with a **dynamic cat fact** fetched from the [Cat Facts API](https://catfact.ninja/fact). Built with **Python/FastAPI**, deployed on **Railway**, and designed to meet all HNG13 Stage 0 requirements.
 
-## üìã Response Format
+## Ì∫Ä Live Demo
+Ì¥ó **[GET /me](https://backend-wizards-stage0-production-290b.up.railway.app/me)**  
+Ì¥ó **Swagger Docs**: [https://backend-wizards-stage0-production-290b.up.railway.app/docs](https://backend-wizards-stage0-production-290b.up.railway.app/docs)
+
+## Ì≥ã API Response Format
 ```json
 {
   "status": "success",
   "user": {
-    "email": "zacchaeus@example.com",
-    "name": "Zacchaeus [Last Name]",
+    "email": "zacchdipo@gmail.com",
+    "name": "Zacchaeus Ayanniran",
     "stack": "Python/FastAPI"
   },
-  "timestamp": "2025-10-17T13:45:23.123Z",
-  "fact": "Cats have over 20 ear muscles!"
+  "timestamp": "2025-10-21T14:57:23.123Z",
+  "fact": "Cats can jump up to 5 times their height!"
 }
+
